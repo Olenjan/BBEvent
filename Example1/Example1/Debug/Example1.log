@@ -1,0 +1,15 @@
+﻿  main.cpp
+c:\users\jan\documents\visual studio 2015\projects\github_clone\bbevent\methodreceiver.h(19): warning C4373: 'BB::CReceiver<CExampleEvent>::CMethod::Event': virtual function overrides 'BB::CReceiver<CExampleEvent>::CInterface::Event', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers
+  c:\users\jan\documents\visual studio 2015\projects\github_clone\bbevent\receiver.h(27): note: see declaration of 'BB::CReceiver<CExampleEvent>::CInterface::Event'
+  c:\users\jan\documents\visual studio 2015\projects\github_clone\example1\example1\main.cpp(43): note: see reference to class template instantiation 'BB::CReceiver<CExampleEvent>::CMethod' being compiled
+c:\users\jan\documents\visual studio 2015\projects\github_clone\example1\example1\main.cpp(62): warning C4244: 'argument': conversion from 'int64_t' to 'int', possible loss of data
+c:\users\jan\documents\visual studio 2015\projects\github_clone\example1\example1\main.cpp(67): warning C4244: '=': conversion from 'int64_t' to 'int', possible loss of data
+c:\users\jan\documents\visual studio 2015\projects\github_clone\bbevent\eventmanager.h(92): warning C4540: dynamic_cast used to convert to inaccessible or ambiguous base; run-time test will fail ('CExampleSystem *' to 'BB::CReceiver<CExampleEvent>::CInterface *')
+  c:\users\jan\documents\visual studio 2015\projects\github_clone\example1\example1\main.cpp(84): note: see reference to function template instantiation 'void BB::CEventManager::registerReceiver<CExampleEvent,CExampleSystem>(Tr *,std::string)' being compiled
+          with
+          [
+              Tr=CExampleSystem
+          ]
+c:\users\jan\documents\visual studio 2015\projects\github_clone\bbevent\eventmanager.h(94): warning C4114: same type qualifier used more than once
+  Example1.vcxproj -> C:\Users\Jan\Documents\Visual Studio 2015\Projects\GITHUB_CLONE\Example1\Debug\Example1.exe
+  Example1.vcxproj -> C:\Users\Jan\Documents\Visual Studio 2015\Projects\GITHUB_CLONE\Example1\Debug\Example1.pdb (Full PDB)

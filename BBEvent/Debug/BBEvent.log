@@ -1,0 +1,8 @@
+﻿  ThreadPool.cpp
+  SignalFunctor.cpp
+  Signal.cpp
+  EventSequencer.cpp
+  EventManager.cpp
+  Event.cpp
+  Generating Code...
+  BBEvent.vcxproj -> C:\Users\Jan\Documents\Visual Studio 2015\Projects\GITHUB_CLONE\Example1\Debug\BBEvent.lib
